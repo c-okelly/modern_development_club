@@ -1,0 +1,16 @@
+# Node
+node_modules
+TEST-App.xml
+npm-debug.log
+
+# Gradle
+.gradle/
+out/
+
+# Build artifacts
+dist/main.js
+dist/main.css
+build/main.css
+build/main.js
+build/specs.js
+build/vendors.js
