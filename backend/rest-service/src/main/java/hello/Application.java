@@ -33,7 +33,7 @@ public class Application {
         return new WebMvcConfigurerAdapter() {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
-                registry.addMapping("/hello").allowedOrigins("http://localhost:3000");
+                registry.addMapping("/hello").allowedOrigins("*");
             }
         };
     }

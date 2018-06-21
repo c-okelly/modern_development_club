@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-
+import { ChatterService } from '../chatter.service';
+import { Res } from '../res';
+ 
 @Component({
   selector: 'app-chatter',
   templateUrl: './chatter.component.html',
@@ -7,9 +9,25 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ChatterComponent implements OnInit {
 
-  constructor() { }
+  name: string = 'Chatter var';
+  result: Res = {
+    id: 1,
+    content: "test"
+  };
+
+  constructor(private chatterService: ChatterService) {
+   }
+
+  getResult(): void {
+    this.chatterService.getResult()
+    .subscribe((data: Res) => {
+      this.result = data;
+      console.log(this.result);
+  });
+  }
 
   ngOnInit() {
+    this.getResult();
   }
 
 }
