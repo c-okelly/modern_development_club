@@ -16,14 +16,19 @@ export class ChatterComponent implements OnInit {
   };
 
   constructor(private chatterService: ChatterService) {
+
    }
 
   getResult(): void {
     this.chatterService.getResult()
-    .subscribe((data: Res) => {
-      this.result = data;
-      console.log(this.result);
-  });
+      .subscribe((data: Res) => {
+          this.result = data;
+          console.log(this.result);
+      });
+  }
+
+  save(): void {
+    console.log("test");
   }
 
   ngOnInit() {
