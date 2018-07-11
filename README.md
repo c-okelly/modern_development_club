@@ -29,6 +29,7 @@ cd backend/rest-service
 
 ``` bash
 cd frontend/frontend-angular
+npm install
 ng serve --open
 ```
 
