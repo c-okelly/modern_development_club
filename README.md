@@ -28,8 +28,8 @@ cd backend/rest-service
 ## Running the frontend application
 
 ``` bash
-cd frontend/chat-app
-npm start
+cd frontend/frontend-angular
+ng serve --open
 ```
 
 ## Resources
