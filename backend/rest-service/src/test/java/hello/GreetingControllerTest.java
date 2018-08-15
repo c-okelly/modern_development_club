@@ -44,7 +44,7 @@ public class GreetingControllerTest {
     }
 
     @Test
-    public void test_default() throws  Exception{
+    public void test_default() throws  Exception {
         this.mvc.perform(post("/test"))
             .andDo(print())
         .andExpect(status().isOk())
@@ -52,8 +52,10 @@ public class GreetingControllerTest {
     }
 
     @Test
-    public void test_with_param() throws  Exception{
+    public void test_with_param() throws  Exception {
         String param = "Test";
+
+        System.out.println("Test");
         this.mvc.perform(post("/test")
                 .param("name",param))
                 .andDo(print())

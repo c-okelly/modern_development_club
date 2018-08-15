@@ -1,7 +1,0 @@
-version: '3'
-services:
-  server:
-    #build .
-    image: "simple-flask-app:latest"
-    ports:
-      - 8000:5000

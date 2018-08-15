@@ -10,6 +10,7 @@ import { Res } from '../res';
 export class ChatterComponent implements OnInit {
 
   name: string = 'Chatter var';
+  firstname: string = 'yes';
   result: Res = {
     id: 1,
     content: "test"

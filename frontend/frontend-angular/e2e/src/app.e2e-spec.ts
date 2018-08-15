@@ -7,8 +7,14 @@ describe('workspace-project App', () => {
     page = new AppPage();
   });
 
-  it('should display welcome message', () => {
-    page.navigateTo();
-    expect(page.getParagraphText()).toEqual('Welcome to frontend-angular!');
-  });
+  // it('should display welcome message', () => {
+  //   page.navigateTo();
+  //   console.log(page.getParagraphText());
+  //   expect(page.getParagraphText()).toEqual('Welcome to our chat app!!!');
+  // });
+
+  // Create new test
+
+
+  //
 });
