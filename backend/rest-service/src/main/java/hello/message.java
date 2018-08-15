@@ -3,12 +3,14 @@ package hello;
 public class Message {
 
     private String name;
+    private String content;
 
     public Message() {
     }
 
-    public Message(String name) {
+    public Message(String name, String content) {
         this.name = name;
+        this.content = content;
     }
 
     public String getName() {
@@ -19,4 +21,11 @@ public class Message {
         this.name = name;
     }
 
+    public String getContent() {
+        return content;
+    }
+
+    public void setContent(String newContent){
+        this.content = newContent;
+    }
 }

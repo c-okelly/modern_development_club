@@ -19,7 +19,8 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 @SpringBootApplication
 @EnableSwagger2
 @ComponentScan(basePackageClasses = {
-        GreetingController.class
+        GreetingController.class,
+        WebSocketConfig.class
 })
 public class Application {
 
