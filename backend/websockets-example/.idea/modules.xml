@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/initial.iml" filepath="$PROJECT_DIR$/initial.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/initial_main.iml" filepath="$PROJECT_DIR$/.idea/modules/initial_main.iml" group="initial" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/initial_test.iml" filepath="$PROJECT_DIR$/.idea/modules/initial_test.iml" group="initial" />
       <module fileurl="file://$PROJECT_DIR$/src/main/main.iml" filepath="$PROJECT_DIR$/src/main/main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/websockets-example.iml" filepath="$PROJECT_DIR$/.idea/modules/websockets-example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/websockets-example_main.iml" filepath="$PROJECT_DIR$/.idea/modules/websockets-example_main.iml" group="websockets-example" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/websockets-example_test.iml" filepath="$PROJECT_DIR$/.idea/modules/websockets-example_test.iml" group="websockets-example" />
     </modules>
   </component>
 </project>

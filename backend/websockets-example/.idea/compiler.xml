@@ -4,6 +4,8 @@
     <bytecodeTargetLevel>
       <module name="initial_main" target="1.8" />
       <module name="initial_test" target="1.8" />
+      <module name="websockets-example_main" target="1.8" />
+      <module name="websockets-example_test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
